@@ -1,0 +1,14 @@
+program print_bool;
+#include ("stdlib.hhf")
+
+static
+    BoolVar:         boolean;
+    HasClass:        boolean := false;
+    IsClear:         boolean := true;
+
+begin print_bool;
+    if HasClass then
+        stdout.put("true");
+    else
+        stdout.put("false");
+end print_bool;
